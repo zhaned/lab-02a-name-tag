@@ -7,13 +7,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class = "header-border"></header>
-    <section class = "side-border"></section>
+    <header class = "header-border">        
+        <button class='background-button' id='background-button'>Pink Button</button>
+        <button class='background-button1' id='background-button1'>Light Green Button</button>
+        <button class='background-button2' id='background-button2'>Light Blue Button</button>
+        <section id='name-count'>Name Change Count: 0</section>
+    </header>
+    <section class = "side-border">
+
+    </section>
     <div class = "nametag">
         <h1>HELLO</h1>
         <h2>my name is</h2>
-        <section class="name">Edmond Zhan</section>
+        <section class="name" id='the-name'>Edmond Zhan</section>
+        <button id='button'>Name Changer</button>
+        <input id='user-input' type="text">
+        <button id='button-pronoun'> Pronouns </button>
     </div>
     <footer class = "bottom-border"></footer>
 </body>
+<script type='module' src='app.js'></script>
 </html>
